@@ -19,10 +19,13 @@ pattern(n)
 
 print()
 
-#pattern using while loop:
+# pattern using while loop
 
-n=1
-a=5
-while  n<=5:
-    print('*'*n)
-    n+=1
+def pattern_w(j):
+    i=1
+    while i<=j:
+        print('*'*i)
+        i=i+1
+
+n=5
+pattern_w(n)
