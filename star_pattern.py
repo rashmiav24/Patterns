@@ -17,3 +17,12 @@ def pattern(n):
 n = 5
 pattern(n)
 
+print()
+
+#pattern using while loop:
+
+n=1
+a=5
+while  n<=5:
+    print('*'*n)
+    n+=1
